@@ -1,10 +1,10 @@
 {
-  "name": "Queen-Dani-V8",
+  "name": "Dani-v8",
   "version": "8.0.0",
-  "description": "Queen Dani V8 WhatsApp Bot with Multi-Number Support",
+  "description": "WhatsApp Bot with Multi-Number Support",
   "main": "index.js",
   "scripts": {
-    "install": "npm install --legacy-peer-deps",
+    "preinstall": "npm config set legacy-peer-deps true",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +14,7 @@
     "fs-extra": "^11.2.0",
     "dotenv": "^16.0.0",
     "pino": "^9.7.0",
+    "canvas": "2.11.2",
     "jimp": "^0.22.12",
     "form-data": "^4.0.0",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
@@ -30,6 +31,7 @@
     "ruhend-scraper": "9.0.1",
     "yt-search": "^2.12.1",
     "node-fetch": "^3.3.2",
+    "sharp": "^0.32.6",
     "file-type": "^21.0.0",
     "axios": "^1.2.5",
     "qrcode": "^1.5.3",
@@ -43,8 +45,8 @@
     "bot",
     "multi-device",
     "baileys",
-    "queen-dani-v8"
+    "Queen-dani-v8"
   ],
-  "author": "Damini",
+  "author": "Boy like dami",
   "license": "MIT"
 }
