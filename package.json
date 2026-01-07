@@ -1,5 +1,5 @@
 {
-  "name": "Queen Dani v8",
+  "name": "Daniv8",
   "version": "1.0.0",
   "description": "WhatsApp Bot with Multi-Number Support",
   "main": "index.js",
@@ -48,8 +48,8 @@
     "bot",
     "multi-device",
     "baileys",
-    "boy like dami"
+    "Boy-like-dami"
   ],
-  "author": "Boy like dami",
+  "author": "Boy-like-dami",
   "license": "MIT"
 }
